@@ -1,1 +1,1 @@
-sqlite-web==0.7.1
+sqlite-web==0.7.2
