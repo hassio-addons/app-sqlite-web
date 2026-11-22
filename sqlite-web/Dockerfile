@@ -12,7 +12,7 @@ COPY requirements.txt /tmp/
 # hadolint ignore=DL3042
 RUN \
   apk add --no-cache --virtual .build-dependencies \
-    py3-pip=26.1.2-r0 \
+    py3-pip=26.1.2-r1 \
   \
   && apk add --no-cache \
     nginx=1.30.7-r0 \
